@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Tugas {
     private static Scanner penginput = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -41,7 +41,7 @@ public class Main {
         System.out.println("Masukkan NIM: ");
         String passwordmahasiswa = penginput.nextLine();
 
-        if (usernamemahasiswa.equals("Ilham Antonika Wijaya" ) && passwordmahasiswa.equals("202410370110452")) {
+        if (usernamemahasiswa.equals("Firman Maulana Firdauz" ) && passwordmahasiswa.equals("202410370110493")) {
             System.out.println("Login Mahasiswa Berhasil!");
             System.out.println("Nama : "+usernamemahasiswa);
             System.out.println("NIM : "+passwordmahasiswa);
